@@ -1,0 +1,23 @@
+{
+    "root": "C:/Users/davje",
+    "program": "example_wandb.py",
+    "git": {
+        "remote": null,
+        "commit": null
+    },
+    "email": "dav.quispeg@gmail.com",
+    "startedAt": "2020-06-29T19:32:52.315046",
+    "host": "DAVJESLAB",
+    "username": "davje",
+    "executable": "C:\\Users\\davje\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
+    "os": "Windows-10-10.0.18362-SP0",
+    "python": "3.7.5",
+    "cpu_count": 12,
+    "args": [],
+    "state": "failed",
+    "jobType": null,
+    "mode": "run",
+    "project": "davje",
+    "heartbeatAt": "2020-06-29T19:33:34.579515",
+    "exitcode": 1
+}

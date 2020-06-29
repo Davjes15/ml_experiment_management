@@ -1,0 +1,74 @@
+2020-06-29 15:32:53,125 DEBUG   MainThread:13004 [wandb_config.py:_load_defaults():133] no defaults not found in config-defaults.yaml
+2020-06-29 15:32:53,312 DEBUG   MainThread:13004 [meta.py:_setup_code_git():49] probe for git information
+2020-06-29 15:32:53,357 DEBUG   MainThread:13004 [run_manager.py:__init__():547] Initialized sync for davje/rvln6c3t
+2020-06-29 15:32:53,361 INFO    MainThread:13004 [run_manager.py:wrap_existing_process():1147] wrapping existing process 1852
+2020-06-29 15:32:53,551 INFO    MainThread:13004 [run_manager.py:init_run():926] system metrics and metadata threads started
+2020-06-29 15:32:53,551 INFO    MainThread:13004 [run_manager.py:init_run():965] upserting run before process can begin, waiting at most 10 seconds
+2020-06-29 15:32:53,709 INFO    Thread-23 :13004 [run_manager.py:_upsert_run():1054] saving pip packages
+2020-06-29 15:32:53,710 INFO    Thread-23 :13004 [run_manager.py:_upsert_run():1056] initializing streaming files api
+2020-06-29 15:32:53,710 INFO    Thread-23 :13004 [run_manager.py:_upsert_run():1063] unblocking file change observer, beginning sync with W&B servers
+2020-06-29 15:32:53,710 INFO    MainThread:13004 [run_manager.py:wrap_existing_process():1164] informing user process we are ready to proceed
+2020-06-29 15:32:53,713 INFO    MainThread:13004 [run_manager.py:_sync_etc():1296] entering loop for messages from user process
+2020-06-29 15:32:54,310 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\config.yaml
+2020-06-29 15:32:54,415 INFO    Thread-10 :13004 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\wandb-metadata.json
+2020-06-29 15:32:54,416 INFO    Thread-10 :13004 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\output.log
+2020-06-29 15:32:54,416 INFO    Thread-10 :13004 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\requirements.txt
+2020-06-29 15:32:55,210 INFO    MainThread:13004 [run_manager.py:_sync_etc():1319] received message from user process: {"save_policy": {"glob": "model-best.h5", "policy": "live"}}
+2020-06-29 15:32:56,311 INFO    Thread-10 :13004 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\media\graph\graph_summary_b50a7fff.graph.json
+2020-06-29 15:32:56,311 INFO    Thread-10 :13004 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\wandb-summary.json
+2020-06-29 15:32:56,312 INFO    Thread-10 :13004 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\media
+2020-06-29 15:32:56,315 INFO    Thread-10 :13004 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\media\graph
+2020-06-29 15:32:58,317 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\output.log
+2020-06-29 15:33:00,319 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\wandb-summary.json
+2020-06-29 15:33:00,321 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\wandb-history.jsonl
+2020-06-29 15:33:00,323 INFO    Thread-10 :13004 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\model-best.h5
+2020-06-29 15:33:02,324 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\output.log
+2020-06-29 15:33:04,328 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\wandb-summary.json
+2020-06-29 15:33:04,329 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\model-best.h5
+2020-06-29 15:33:04,329 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\wandb-history.jsonl
+2020-06-29 15:33:06,334 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\output.log
+2020-06-29 15:33:08,336 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\wandb-summary.json
+2020-06-29 15:33:08,338 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\wandb-history.jsonl
+2020-06-29 15:33:09,339 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\output.log
+2020-06-29 15:33:10,340 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\wandb-metadata.json
+2020-06-29 15:33:12,344 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\wandb-summary.json
+2020-06-29 15:33:12,345 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\model-best.h5
+2020-06-29 15:33:12,345 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\wandb-history.jsonl
+2020-06-29 15:33:13,348 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\output.log
+2020-06-29 15:33:16,351 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\wandb-summary.json
+2020-06-29 15:33:16,352 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\output.log
+2020-06-29 15:33:16,352 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\wandb-history.jsonl
+2020-06-29 15:33:19,360 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\wandb-summary.json
+2020-06-29 15:33:19,361 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\model-best.h5
+2020-06-29 15:33:19,363 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\wandb-history.jsonl
+2020-06-29 15:33:20,363 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\output.log
+2020-06-29 15:33:22,370 INFO    Thread-10 :13004 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\wandb-events.jsonl
+2020-06-29 15:33:23,372 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\wandb-summary.json
+2020-06-29 15:33:23,375 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\model-best.h5
+2020-06-29 15:33:23,377 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\wandb-history.jsonl
+2020-06-29 15:33:24,373 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\output.log
+2020-06-29 15:33:26,379 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\wandb-metadata.json
+2020-06-29 15:33:27,382 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\wandb-summary.json
+2020-06-29 15:33:27,383 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\output.log
+2020-06-29 15:33:27,384 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\model-best.h5
+2020-06-29 15:33:27,385 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\wandb-history.jsonl
+2020-06-29 15:33:31,389 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\wandb-summary.json
+2020-06-29 15:33:31,390 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\output.log
+2020-06-29 15:33:31,391 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\wandb-history.jsonl
+2020-06-29 15:33:34,140 INFO    MainThread:13004 [run_manager.py:_sync_etc():1319] received message from user process: {"exitcode": 1}
+2020-06-29 15:33:34,140 INFO    MainThread:13004 [run_manager.py:_sync_etc():1406] closing log streams and sending exitcode to W&B
+2020-06-29 15:33:34,141 INFO    MainThread:13004 [run_manager.py:shutdown():1070] shutting down system stats and metadata service
+2020-06-29 15:33:34,396 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\wandb-events.jsonl
+2020-06-29 15:33:34,396 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\wandb-summary.json
+2020-06-29 15:33:34,396 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\output.log
+2020-06-29 15:33:34,397 INFO    Thread-10 :13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\wandb-history.jsonl
+2020-06-29 15:33:34,580 INFO    MainThread:13004 [run_manager.py:shutdown():1084] stopping streaming files and file change observer
+2020-06-29 15:33:35,401 INFO    MainThread:13004 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\wandb-metadata.json
+2020-06-29 15:33:36,464 INFO    MainThread:13004 [run_manager.py:_sync_etc():1425] rendering summary
+2020-06-29 15:33:36,473 INFO    MainThread:13004 [run_manager.py:_sync_etc():1457] syncing files to cloud storage
+2020-06-29 15:33:37,490 INFO    MainThread:13004 [run_manager.py:_sync_etc():1466] syncing complete: https://app.wandb.ai/davquispe/davje/runs/rvln6c3t
+inThread:13004 [rvln6c3t:run_manager.py:shutdown():1084] stopping streaming files and file change observer
+2020-06-29 15:33:35,401 INFO    MainThread:13004 [rvln6c3t:run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\davje\Documents\Python Scripts\Experiment Management\wandb\run-20200629_193252-rvln6c3t\wandb-metadata.json
+2020-06-29 15:33:36,464 INFO    MainThread:13004 [rvln6c3t:run_manager.py:_sync_etc():1425] rendering summary
+2020-06-29 15:33:36,473 INFO    MainThread:13004 [rvln6c3t:run_manager.py:_sync_etc():1457] syncing files to cloud storage
+2020-06-29 15:33:37,490 INFO    MainThread:13004 [rvln6c3t:run_manager.py:_sync_etc():1466] syncing complete: https://app.wandb.ai/davquispe/davje/runs/rvln6c3t

@@ -1,0 +1,5 @@
+Run ID,Name,Source Type,Source Name,User,Status,batch_size,epochs,epsilon,learning_rate,num_layers,optimizer_name,param1,validation_split,accuracy,foo,loss,val_accuracy,val_loss
+7ef99009981048be8550fdadf160601d,,LOCAL,example_mlflow.py,davje,FINISHED,32,10,1e-07,0.001,5,Adam,81,0.1,0.950018584728241,2.8167639853410003,0.1884898543357849,0.7897664308547974,1.0367789268493652
+f2579e8a62204b589ffe2305a397d9eb,,LOCAL,example_mlflow.py,davje,FINISHED,32,5,1e-07,0.001,5,Adam,87,0.1,0.9188420176506042,2.8919131593230674,0.3196215331554413,0.8086763024330139,0.8844857811927795
+a35bbbcf5a2a433eaeec235f749680c8,,LOCAL,example_mlflow.py,davje,FINISHED,,,,,,,43,,,2.477271094108844,,,
+b80a2ec704ef4f889130994afbf424bb,,LOCAL,example_mlflow.py,davje,FINISHED,,,,,,,90,,,2.912942121056894,,,

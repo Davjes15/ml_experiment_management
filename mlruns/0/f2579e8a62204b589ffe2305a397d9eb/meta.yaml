@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/davje/Documents/Python%20Scripts/Experiment%20Management/mlruns/0/f2579e8a62204b589ffe2305a397d9eb/artifacts
+end_time: 1593470960818
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: f2579e8a62204b589ffe2305a397d9eb
+run_uuid: f2579e8a62204b589ffe2305a397d9eb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1593470950210
+status: 3
+tags: []
+user_id: davje
