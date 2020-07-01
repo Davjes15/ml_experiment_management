@@ -17,22 +17,22 @@ import random
 
 # To run in beluga is necessary to 
 #Comet can be used after loading the httpproxy module: module load httpproxy
-module load httpproxy
+#module load httpproxy
 
 # Add the following code anywhere in your machine learning file
 experiment = Experiment(api_key="8cOIekzCAhWBHhOHEH1ADsa5S", project_name="general", workspace="davquispe")
 # Add mutiple tags
-experiment.add_tags(['test1','keras', 'beluga'])
+experiment.add_tags(['test2','keras', 'beluga'])
 
 # Set hyperparameters
 dropout = 0.2
 hidden_layer_size = 128
 layer_1_size = 16
 layer_2_size = 32
-learn_rate = 0.01
+learn_rate = 0.001
 decay = 1e-6
 momentum = 0.9
-epochs = 3
+epochs = 5
 status=True
 
 (X_train_orig, y_train_orig), (X_test, y_test) = fashion_mnist.load_data()
