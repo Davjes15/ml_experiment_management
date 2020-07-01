@@ -22,7 +22,7 @@ import random
 # Add the following code anywhere in your machine learning file
 experiment = Experiment(api_key="8cOIekzCAhWBHhOHEH1ADsa5S", project_name="general", workspace="davquispe")
 # Add mutiple tags
-experiment.add_tags(['test2','keras', 'beluga'])
+experiment.add_tags(['test2','keras', 'cedar'])
 
 # Set hyperparameters
 dropout = 0.2
