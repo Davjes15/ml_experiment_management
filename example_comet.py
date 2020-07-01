@@ -15,6 +15,10 @@ from keras.optimizers import SGD
 from keras.callbacks import TensorBoard
 import random
 
+# To run in beluga is necessary to 
+#Comet can be used after loading the httpproxy module: module load httpproxy
+module load httpproxy
+
 # Add the following code anywhere in your machine learning file
 experiment = Experiment(api_key="8cOIekzCAhWBHhOHEH1ADsa5S", project_name="general", workspace="davquispe")
 # Add mutiple tags
