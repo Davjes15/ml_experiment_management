@@ -15,19 +15,21 @@ from keras.optimizers import SGD
 from keras.callbacks import TensorBoard
 import random
 
-
 # Add the following code anywhere in your machine learning file
 experiment = Experiment(api_key="8cOIekzCAhWBHhOHEH1ADsa5S", project_name="general", workspace="davquispe")
+# Add mutiple tags
+experiment.add_tags(['test1','keras', 'beluga'])
 
 # Set hyperparameters
-dropout = 0.2,
-hidden_layer_size = 128,
-layer_1_size = 16,
-layer_2_size = 32,
-learn_rate = 0.001,
-decay = 1e-6,
-momentum = 0.9,
-epochs = 10,
+dropout = 0.2
+hidden_layer_size = 128
+layer_1_size = 16
+layer_2_size = 32
+learn_rate = 0.01
+decay = 1e-6
+momentum = 0.9
+epochs = 3
+status=True
 
 (X_train_orig, y_train_orig), (X_test, y_test) = fashion_mnist.load_data()
 
@@ -59,15 +61,15 @@ y_train = np_utils.to_categorical(y_train)
 y_test = np_utils.to_categorical(y_test)
 num_classes = y_test.shape[1]
 
-sgd = SGD(learning_rate=0.001, decay=1e-6, momentum=0.9, nesterov=True)
+sgd = SGD(learning_rate=learn_rate, decay=decay, momentum=momentum, nesterov=status)
 
 # build model
 model = Sequential()
-model.add(Conv2D(16, (5, 5), activation='relu', input_shape=(28, 28, 1)))
+model.add(Conv2D(layer_2_size, (5, 5), activation='relu', input_shape=(img_width, img_height, 1)))
 model.add(MaxPooling2D(pool_size=(2, 2)))
-model.add(Conv2D(16, (5, 5), activation='relu'))
+model.add(Conv2D(layer_2_size, (5, 5), activation='relu'))
 model.add(MaxPooling2D(pool_size=(2, 2)))
-model.add(Dropout(0.2))
+model.add(Dropout(dropout))
 model.add(Flatten())
 model.add(Dense(128, activation='relu'))
 model.add(Dense(num_classes, activation='softmax'))
@@ -78,4 +80,5 @@ my_callbacks = [
     tf.keras.callbacks.TensorBoard(log_dir='./logs')
 ]
 model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
-model.fit(X_train, y_train,  validation_data=(X_test, y_test), epochs=10, callbacks=my_callbacks)
+model.fit(X_train, y_train,  validation_data=(X_test, y_test), epochs=epochs, callbacks=my_callbacks)
+
