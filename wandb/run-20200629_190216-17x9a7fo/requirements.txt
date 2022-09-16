@@ -63,7 +63,7 @@ keras-preprocessing==1.1.2
 keras==2.4.3
 lazy-object-proxy==1.4.3
 lockfile==0.12.2
-mako==1.1.2
+mako==1.2.2
 markdown==2.6.11
 markupsafe==1.1.1
 marshmallow-enum==1.5.1
